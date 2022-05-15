@@ -11,7 +11,7 @@ public class StringListImpl implements StringList {
     @Override
     public String add(String item) {
         if (size >= array.length) {
-            String[] extended = new String[array.length * 2];
+            String[] extended = new String[array.length + 1];
             System.arraycopy(array, 0, extended, 0, array.length);
             array = extended;
         }

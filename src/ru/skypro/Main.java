@@ -41,7 +41,8 @@ public class Main {
         System.out.println("stringList.get(7) = " + stringList.get(7));
         stringList.clear();
         System.out.println("stringList.isEmpty() = " + stringList.isEmpty());
-
-
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
     }
 }
